@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Passion-One';
+    src: url('Estilo/Fontes/Passion_One/PassionOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lora';
+    src: url('Estilo/Fontes/Lora/static/Lora-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LibreBaskerville';
+    src: url('Estilo/Fontes/Libre_Baskerville/LibreBaskerville-Regular.ttf') format('truetype');
+}
+
+:root {
+    --Cor1: #553C3A;
+    --Cor2: #804642;
+    --Cor3: #AD372F;
+    --Cor4: #D53328;
+    --Cor5: #FF1605;
+
+    --FamilyHeader: 'Passion-One', Impact, fantasy; 
+    --FamilyText: Helvetica, Arial, sans-serif;
+    --FamilyTitle: 'Lora', 'LibreBaskerville', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    font-family: var(--FamilyTitle);
+}
+
+.paragrafo {
+    font-family: var(--FamilyText);
+}
+
+header {
+    text-align: center;
+    background-image: url(Mídias/Imagens/Foto_Cabeçalho.png);
+    height: 230px;
+}
+
+header > h1 {
+    font: normal 150px var(--FamilyHeader);
+    margin: 0;
+}
+
+header > hr{
+    background-color: black;
+    opacity: 70%;
+    width: 1000px;
+    height: 4px;
+    margin: auto;
+    border: 0px
+}
+
+header > nav {
+    padding: 15px 0px 0px 0px;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: white;
+    font: normal 25px var(--FamilyText);
+    padding: 0px 32.5px;
+
+}
+
+main > section#TxtInicial{
+    margin: 0px 50px;
+}
+
+main > section#TxtInicial > h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+main > section#TxtInicial > p {
+    font-size: 26px;
+    text-align: justify;
+    margin: 0px 0px 4px 0px;
+    line-height: 1.5em;
+}
+
+main > section#MsgMotivacional {
+    background-image: url(Mídias/Imagens/Foto_Frase_Página_Inicia_Editadal.jpg);
+    height: 735px;
+    margin-top: 32px;
+}
+
+main > section#MsgMotivacional > p {
+    font: 52px impact, fantasy;
+    color: white;
+    padding-top: 600px;
+    padding-left: 16px;
+    margin: 0;
+}
+
+main > section#MsgMotivacional > p > strong{
+    color: var(--Cor5);
+    font-weight: normal;
+}
