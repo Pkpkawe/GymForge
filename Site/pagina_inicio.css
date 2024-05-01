@@ -1,0 +1,49 @@
+@import url(pagina_inicio.css);
+
+main > section#TxtInicial{
+    margin: 0px 50px;
+}
+
+main > section#TxtInicial > h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+main > section#TxtInicial > p {
+    font-size: 26px;
+    text-align: justify;
+    margin: 0px 0px 4px 0px;
+    line-height: 1.5em;
+}
+
+main > section#MsgMotivacional {
+    background-image: url(Mídias/Imagens/Foto_Frase_Página_Inicia_Editadal.jpg);
+    height: 735px;
+    margin-top: 32px;
+    width: 100%;
+}
+
+main > section#MsgMotivacional > p {
+    font: 52px impact, fantasy;
+    color: white;
+    padding-top: 600px;
+    padding-left: 16px;
+    margin: 0;
+}
+
+main > section#MsgMotivacional > p > strong{
+    color: var(--Cor5);
+    font-weight: normal;
+}
+
+/*
+main > section#Artigo > article {
+    text-align: center;
+}
+
+main > section#Artigo > article > a > img {
+    border: solid 10px var(--Cor2);
+    border-radius: 5px;
+}
+*/

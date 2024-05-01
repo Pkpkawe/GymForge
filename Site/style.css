@@ -60,7 +60,8 @@ header > hr{
     width: 1000px;
     height: 4px;
     margin: auto;
-    border: 0px
+    border: 0px;
+    border-radius: 10px;
 }
 
 header > nav {
@@ -109,4 +110,60 @@ main > section#MsgMotivacional > p {
 main > section#MsgMotivacional > p > strong{
     color: var(--Cor5);
     font-weight: normal;
+}
+
+footer {
+    background-color: var(--Cor1);
+    height: 210px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer > h1 {
+    font: normal 40px var(--FamilyHeader);
+    color: white;
+    margin: 0;
+    padding-top: 20px;
+}
+
+footer > hr {
+    background-color: black;
+    opacity: 30%;
+    margin: auto;
+    border: 0px;
+}
+
+footer > p {
+    color: white;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+footer > p#P1 {
+    font-size: 20px;
+}
+
+footer > hr#Hr1 {
+    width: 700px;
+    height: 3px;
+}
+
+footer > nav {
+    padding: 10px 0px;
+}
+
+footer > nav > a{
+    color: white;
+    font: 18px var(--FamilyText);
+    text-decoration: none;
+    padding: 0px 32.5px;
+}
+
+footer > hr#Hr2 {
+    width: 150px;
+    height: 3px;
+}
+
+footer >p#P2 {
+    font-size: 25px;
 }
