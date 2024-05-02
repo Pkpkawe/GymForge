@@ -47,6 +47,7 @@ header {
     text-align: center;
     background-image: url(Mídias/Imagens/Foto_Cabeçalho.png);
     height: 230px;
+    box-shadow: 0px -1px 20px 10px rgba(0, 0, 0, 0.350);
 }
 
 header > h1 {
