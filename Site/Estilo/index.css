@@ -19,8 +19,10 @@ main > section#TxtInicial > p {
 
 main > section#MsgMotivacional {
     background-image: url(../Mídias/Imagens/Foto_Frase_Página_Inicia_Editada.jpg);
-    height: 873px;
+    height: 100%;
+    width: 100%;
     margin-top: 32px;
+    
 
 }
 
