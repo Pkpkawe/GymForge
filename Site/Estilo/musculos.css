@@ -1,0 +1,127 @@
+@import url(../style.css);
+
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+main > section#Introducao {
+    background-color: var(--Cor2);
+    width: 1200px;
+    margin: auto;
+}
+
+main > section#Introducao > h2 {
+    font: bold 50px var(--FamilyTitle);
+    text-align: left;
+    margin: 0px;
+    padding: 30px;
+}
+
+main > section#Introducao > p {
+    text-align: justify;
+    font-size: 22px;
+    margin: 0px;
+    padding: 0px 30px 30px 30px;
+}
+
+main > section#SistemaMuscular > img#Representacao {
+    width: 80%;
+}
+
+main > section#SistemaMuscular > button#Virar {
+    background-color: var(--Cor2);
+    color: white;
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 70px;
+    font: bold 40px var(--FamilyText);
+    border: solid 5px black;
+    border-radius: 100px;
+}
+
+main > section#SistemaMuscular > button#Virar:hover {
+    background-color: var(--Cor3);
+    color: var(--Cor1);
+    cursor: pointer;
+}
+
+section#TabelaGrupos{
+    text-align: center;
+    width: 1264px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+section#TabelaGrupos > nav {
+    text-align: center;
+    margin: auto;
+    margin-bottom: -1px;
+}
+
+section#TabelaGrupos > nav > button {
+    display: inline;
+    background-color: var(--Cor1);
+    width: 158px;
+    height: 78px;
+    margin: -2px;
+    border: none;
+    font: normal 24px var(--FamilyText);
+    color:white;
+}
+
+section#TabelaGrupos > nav > button:hover {
+    background-color: white;
+    font: normal 24px var(--FamilyText);
+    color:black;
+    border:solid 5px var(--Cor2);
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+}
+
+button#Peito:hover {
+
+}
+
+button#Braço:hover {
+    
+}
+
+button#Antebraço:hover {
+    
+}
+
+button#Ombro:hover {
+    
+}
+
+button#Costas:hover {
+    
+}
+
+button#Abdômen:hover {
+    
+}
+
+button#Glúteos:hover {
+    
+}
+
+button#Perna:hover {
+
+}
+
+article#Descrição {
+    background-color: var(--Cor2);
+    margin: 0;
+}
+
+article#Descrição > p#PAuxiliar {
+    margin: 0;
+    padding: 20px 0px;
+    font: bold 2em var(--FamilyText);
+}
