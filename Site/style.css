@@ -74,7 +74,13 @@ header > nav > a{
     color: white;
     font: normal 25px var(--FamilyText);
     padding: 0px 32.5px;
+}
 
+header > nav > a:hover{
+    text-decoration: underline;
+    color: var(--Cor5);
+    font: bold 25px var(--FamilyText);
+    padding: 0px 32.5px;
 }
 
 main > section#TxtInicial{

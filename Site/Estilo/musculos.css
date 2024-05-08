@@ -71,57 +71,94 @@ section#TabelaGrupos > nav > button {
     border: none;
     font: normal 24px var(--FamilyText);
     color:white;
+    /*
+    cursor: default;
+    */
 }
 
+/*
 section#TabelaGrupos > nav > button:hover {
     background-color: white;
-    font: normal 24px var(--FamilyText);
     color:black;
     border:solid 5px var(--Cor2);
     border-bottom: none;
     border-radius: 10px 10px 0px 0px;
     cursor: pointer;
 }
+*/
 
-button#Peito:hover {
-
-}
-
-button#Braço:hover {
-    
-}
-
-button#Antebraço:hover {
-    
-}
-
-button#Ombro:hover {
-    
-}
-
-button#Costas:hover {
-    
-}
-
-button#Abdômen:hover {
-    
-}
-
-button#Glúteos:hover {
-    
-}
-
-button#Perna:hover {
-
-}
-
-article#Descrição {
+section#TabelaGrupos > article {
     background-color: var(--Cor2);
     margin: 0;
 }
 
-article#Descrição > p#PAuxiliar {
+article#Auxiliar {
+    display: block;
+}
+
+article#Auxiliar > p#PAuxiliar {
     margin: 0;
     padding: 20px 0px;
     font: bold 2em var(--FamilyText);
+}
+
+.ArtGruposMusculares {
+    display: none;
+    text-align: left;
+    border: solid 35px var(--Cor2);
+}
+
+.ArtGruposMusculares > h1 {
+    font: bold 50px var(--FamilyTitle);
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.ArtGruposMusculares > h2 {
+    font: bold 35px var(--FamilyTitle);
+    margin: 0;
+    padding-top: 16px;
+}
+
+.ArtGruposMusculares > p {
+    font: normal 22px var(--FamilyText);
+    text-align: justify;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.ArtGruposMusculares > p.ExplicaçãoH2 {
+    padding-left: 20px;
+}
+
+#ArtPeito {
+    display: none;
+}
+
+#ArtBraço {
+    display: none;
+}
+
+#ArtAntebraço {
+    display: none;
+}
+
+#ArtOmbro {
+    display: none;
+}
+
+#ArtCostas {
+    display: none;
+}
+
+#ArtAbdômen {
+    display: none;
+}
+
+#ArtGlúteos {
+    display: none;
+}
+
+#ArtPerna {
+    display: none;
 }
